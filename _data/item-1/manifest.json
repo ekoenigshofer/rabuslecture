@@ -1,0 +1,39 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://ekoenigshofer.github.io/rabuslecture/item-1/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "item-1" ] },
+    "homepage": [
+      {
+        "id": "https://www.youtube.com/watch?v=GuPgNAsn88k",
+        "type": "Text",
+        "label": { "en": [ "item-1" ] },
+        "format": "text/html"
+      }
+    ],
+    "items": [
+      {
+        "id": "https://ekoenigshofer.github.io/rabuslecture/item-1/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 2986.0,
+        "items": [
+          {
+            "id": "https://ekoenigshofer.github.io/rabuslecture/item-1/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://ekoenigshofer.github.io/rabuslecture/item-1/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://youtu.be/GuPgNAsn88k",
+                    "duration": 2986.0
+                },
+                "target": "https://ekoenigshofer.github.io/rabuslecture/item-1/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
